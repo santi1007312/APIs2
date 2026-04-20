@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./Gemini_Generated_Image_ciesniciesnicies.png);
+    background-size: cover;
+}
+
+.container{
+    justify-self: center;
+    margin-top: 10vh;
+    height: 70vh;
+    width: 50vw;
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.219);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container a button{
+    height: 5vh;
+    width: 10vw;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:black;
+    color: white;
+    border-color: goldenrod;
+    transition: 0.1s;
+}
+.container a button:hover{
+    transform: scale3d(1.1,1.1,1.1);
+}
